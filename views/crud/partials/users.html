@@ -1,0 +1,19 @@
+﻿<p>This is persons.html file in partial's folder</p>
+    <ul>
+        <li ng-repeat="person in persons">
+            <a ng-href="#/{{person.id}}/edit">Edit</a> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a ng-href="#/{{person.id}}/delete" >Delete</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a ng-href="#/{{person.id}}" >
+                {{person.firstName}} - {{person.lastName}}
+            </a>
+            
+   
+        </li>
+
+    </ul>
+
+
+<a ng-href="#/new" >Add New</a>

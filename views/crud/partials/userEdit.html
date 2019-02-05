@@ -1,0 +1,5 @@
+<form ng-show="selectedPerson" action="/" method="post">
+    <input type="text" name="firstName" value="{{selectedPerson.firstName}}" ng-model="selectedPerson.firstName" />
+    <input type="text" name="lastName" value="{{selectedPerson.lastName}}" ng-model="selectedPerson.lastName" />
+    <input type="button" name="name" value="Save Changes" ng-click="saveChanges()" />
+</form>
