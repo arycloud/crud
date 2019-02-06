@@ -8,11 +8,11 @@ module.exports = {
   connections: {
     mysqlDB: {
 		adapter: 'mysqlAdapt',
-		host: '127.0.0.1',
+		host: process.env.MYREL09-MYCHART09_SERVICE_HOST,
 		database: 'node',
 		user:'root',
 		password:'f{e$mP8',
-		port: 3306,
+		port: MYREL09-MYCHART09_SERVICE_PORT,
 		supportBigNumbers:true, //true/false
 		debug:['ComQueryPacket'], //false or array of node-mysql debug options
 		trace:true //true/false
