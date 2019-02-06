@@ -30,7 +30,6 @@ require('./init/models')(modelPath);
 //ORM Initialization 
 waterlineOrm.initialize(waterlineConfig, function (err, models) {
     if (err) throw err;
-
     db = function (table) { return models['collections'][table]; };
     db.collections = models.collections;
     db.connections = models.connections;
