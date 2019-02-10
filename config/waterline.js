@@ -9,9 +9,9 @@ module.exports = {
     mysqlDB: {
 		adapter: 'mysqlAdapt',
 		host: process.env.MYSQL_SERVICE_HOST,
-		database: 'default_db_name',
+		database: 'node',
 		user:'root',
-		password:'default_password',
+		password:'fe$mP8',
 		port: process.env.MYSQL_SERVICE_PORT,
 		supportBigNumbers:true, //true/false
 		debug:['ComQueryPacket'], //false or array of node-mysql debug options
