@@ -10,7 +10,7 @@ module.exports = {
 		adapter: 'mysqlAdapt',
 		host: process.env.MYSQL_SERVICE_HOST,
 		database: 'node',
-		user:'root',
+		user:'myuser',
 		password:'fe$mP8',
 		port: process.env.MYSQL_SERVICE_PORT,
 		supportBigNumbers:true, //true/false
